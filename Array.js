@@ -8,7 +8,7 @@
 // array copy operation perform shallow copy
 
 
-let fruitList = ["apple", "banana", "kiwi", ];
+let fruitList = ["apple", "banana", "kiwi", "hello"];
 
 
 // push - add a new items to the end of an array 
@@ -47,7 +47,7 @@ console.log(arr1.indexOf("IND")); // only return 0 (first index)
 console.log(arr1.indexOf("IND", 2)); // start searching from index 2
 
 // join - not change og array , convert array into string
-fruitList = ["apple", "banana", "kiwi", "greps"];
+// fruitList = ["apple", "banana", "kiwi", "greps"];
 console.log(fruitList.join("_")); // in "" give ant delimiter
 console.log(fruitList);
 
@@ -68,4 +68,22 @@ let arr = ["a","b", "c", ["d", "e", "f", ["g", "h", "i", ["tejas", ["abc", ["def
   console.log(arr.flat(2)); // 2 level
   console.log(arr.flat(3));
   console.log(arr.flat(Infinity));
+
+  // length of array 
+  let lengthofarray = ["hello", "tejas" ,"parul university" ];
+
+  console.log(lengthofarray.length);
+
+  // reverse() => reverse the actual array and return it
+  console.log(fruitList.reverse());
+  
+  //toString()
+user = ["john", 20, "NYC" ,];
+console.log(user.toString());
+
+
+// map
+
+number =[1,2,3,4,5,6,7,8,9,]
+console.log(number.map((n) => n + 3));
   
