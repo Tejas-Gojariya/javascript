@@ -5,7 +5,7 @@ There are six falsy values
 
 1. false, 
 2. 0, 
-3. an empty string (''), 
+3. an empty string (" "), 
 4. null, 
 5. undefined, 
 6. and NaN (Not-a-Number).
@@ -39,4 +39,11 @@ if (isLoggedIn) {
   console.log('User is not logged in');
 }
 
+/*Truthy values
 
+All numbers(positive and negative) are truthy except zero
+All strings are truthy except an empty string ('')
+The boolean true
+*/
+
+// "0" , 'false' , " "(space), [] array , {}object , function(){}
